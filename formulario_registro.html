@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body class="formulario">
+
+    
+    
+        <a href="planes.html" class="regresar_a_planes">Volver</a>
+     
+
+    <form  action="conexion.php" id="formulario_registro" class="campos_registro" accept-charset="utf-8" method="post">
+
+      <h2>Registro</h2>  
+
+     <input class="controls" type="text" name="Nombres" id="nombres" placeholder="Introduzca su nombre" required onchange="comprobarCampoNombre()">   
+     <input class="controls" type="text" name="Apellido_Paterno" id="apellido_paterno" placeholder="Introduzca su apellido paterno" required onchange="comprobarCampoApellidoPaterno()">
+     <input class="controls" type="text" name="Apellido_Materno" id="apellido_materno" placeholder="Introduzca su apellido materno" required onchange="comprobarCampoApellidoMaterno()">   
+     <input class="controls" type="number" name="Edad" id="edad" placeholder="Introduzca su edad" required>
+     <input class="controls" type="text" name="Correo_Electrónico" id="correo" placeholder="Introduzca su correo electrónico" required onchange="comprobarCampoCorreoElectronico()">
+     <input class="controls" type="text" name="Fecha" id="fecha" placeholder="Introduce la fecha en la que serás citado" required onblur="comprobarCampoFecha()">
+     <input class="controls" type="text" name="Hora" id="hora" placeholder="Introduce la hora de la cita" required onblur="comprobarCampoHora()">                      
+     <input class="controls"  type="text" name="Plan" id="plan" readonly> 
+     <script>
+
+        let configuracionPag = JSON.parse(localStorage.getItem('configuracionPag'));
+
+        if(configuracionPag.showdiv)
+        {
+
+            document.getElementById("plan").value = configuracionPag.plan;
+
+        };
+
+
+     </script>    
+     <p></p>
+     <button class="botons" type="submit"  name="Generar Consulta">Generar Consulta</button>
+        
+    </form>    
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

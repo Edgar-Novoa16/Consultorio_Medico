@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+    <title>Consultorio</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body class="cuerpo" onload="crearMapa()">
+    
+   <header class="Inicio">
+
+    <div class="Contenido-header">
+        <div class="Barra">
+
+            <a href="index.html" >
+       
+                <img class="Logotipo" src="img/Dentilandia-01.png" alt="logo de dentilandia">
+       
+            </a>
+
+            <nav class="Navegacion">
+
+                <a class="p1"  href="#quienes_somos">¿Quiénes somos?</a>
+                <a class="p2" href="planes.html">Planes</a>
+                <a class="p3" href="horarios"></a>
+                <a class="p4" href="pagos.html">Pagos</a>
+
+            </nav>    
+
+        </div>
+
+            <h1 class="Eslogan">Porque la visita al dentista nunca fue tan divertida</h1>
+    </div>
+            
+   </header>
+
+   <main class="Quienes_somos" id="quienes_somos">
+        
+       <h2>¿Quiénes somos?</h2>
+
+ 
+        <div class="esto_somos">
+
+            <img src="img/quienes_somos1.jpg" alt="¿Quiénes somos?">
+
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Modi quisquam eum dolor, est exercitationem sunt amet 
+                error facilis, nobis fugit cumque incidunt id nulla? Eos
+                rem quos ipsam quibusdam dolores.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Vel placeat dolor, aspernatur eius porro distinctio minima
+                illum aut velit earum quo eligendi, atque error et, qui laudantium
+                tempora hic cum!
+            </p>
+
+        </div>    
+
+      <div class="caracteristicas">
+        
+        
+            <div class="confianza">
+
+                <img src="img/Confianza.svg" alt="Somos confianza.">
+                <h2>Somos Confianza.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium
+                accusantium, officiis similique quo harum nemo! Impedit officiis aliquid
+                fugit, vitae numquam illo necessitatibus ad doloremque provident, corrupti
+                beatae quae.</p>    
+
+            </div>
+            
+            <div class="seguridad">
+
+                <img src="img/Seguridad.svg" alt="Somos seguridad.">
+                <h2>Somos Seguridad.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium
+                accusantium, officiis similique quo harum nemo! Impedit officiis aliquid
+                fugit, vitae numquam illo necessitatibus ad doloremque provident, corrupti
+                beatae quae.</p>    
+
+            </div>
+
+            <div class="calidad">
+
+                <img src="img/Calidad.svg" alt="Somos calidad.">
+                <h2>Somos Calidad.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium
+                accusantium, officiis similique quo harum nemo! Impedit officiis aliquid
+                fugit, vitae numquam illo necessitatibus ad doloremque provident, corrupti
+                beatae quae.</p>    
+
+            </div>
+
+
+    
+       </div>   
+
+        
+
+    </main>
+   
+    <section class="servidores">
+
+       <h2 class="ss">Servidores de salud</h2> 
+          <div class="descripcion">
+
+
+             <div class="servidor">
+
+
+                <img src="img/dentista1.jpg" alt="Dentista Enrique Sánchez">  
+                    <h4>Enrique Sánchez</h4>
+                    <p> 
+                    
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Similique tenetur rem in. Reiciendis, natus. Inventore, 
+                        animi? Perferendis aspernatur suscipit repellendus 
+                        excepturi sapiente perspiciatis labore magnam, laboriosam
+                        fugit, voluptates ipsam iusto.
+
+                    </p> 
+
+                    
+                    <figure>
+
+                        <div class="masInformacion">
+                            <h4>Más información</h4>
+                            <p>Descubre más acerca de mí.</p>
+                        </div> 
+                            
+                    </figure>
+
+             </div>
+                        
+             
+
+                <div class="servidor">
+                 
+                 <img src="img/dentista2.jpg" alt="Dentista Edgambeta Edgol">   
+                    <h4>Edgambeta Edgol</h4>
+                    <p>
+                    
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Similique tenetur rem in. Reiciendis, natus. Inventore, 
+                    animi? Perferendis aspernatur suscipit repellendus 
+                    excepturi sapiente perspiciatis labore magnam, laboriosam
+                    fugit, voluptates ipsam iusto.
+
+                    </p>
+
+                    
+                <figure>
+
+                    <div class="masInformacion">
+                        <h4>Más información</h4>
+                        <p>Descubre más acerca de mí.</p>
+                    </div> 
+                        
+                </figure>
+
+                </div>
+
+                <div class="servidor"">
+
+                  <img src="img/dentista3.jpg" alt="Dentista Marquiños Gaucho">  
+                    <h4>Marquiños Gaucho</h4>
+                    <p>
+                
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Similique tenetur rem in. Reiciendis, natus. Inventore, 
+                    animi? Perferendis aspernatur suscipit repellendus 
+                    excepturi sapiente perspiciatis labore magnam, laboriosam
+                    fugit, voluptates ipsam iusto.
+
+                    </p>
+
+                    <figure>
+
+                        <div class="masInformacion">
+                            <h4>Más información</h4>
+                            <p>Descubre más acerca de mí.</p>
+                        </div> 
+                            
+                    </figure>
+
+                </div>
+            </div>
+
+    </section>
+
+
+        <div class="horarios">
+      
+              <h2>Horarios</h2>
+
+         <div class="dias">
+
+
+            <div class="lunes_a_viernes">
+                <h3>Lunes a Viernes</h3>
+                    
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Reprehenderit recusandae non, quam temporibus rem dicta 
+                        voluptatum corporis modi nulla consectetur repudiandae nostrum
+                        atque doloribus, sit cupiditate alias, veniam quo veritatis!
+                    </p>
+            </div>        
+
+            <div class="sabados">
+                <h3>Sábados</h3>
+                
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Reprehenderit recusandae non, quam temporibus rem dicta 
+                        voluptatum corporis modi nulla consectetur repudiandae nostrum
+                        atque doloribus, sit cupiditate alias, veniam quo veritatis!
+                    </p>
+            </div>
+
+            
+
+         </div>     
+
+        </div>     
+    
+
+        
+    
+        <div id="map"></div>
+
+
+
+    <!--
+    <a href="sobreNosotros.html">¿Quiénes somos?</a>
+    <a href="planes.html">Planes</a>
+    <a href="horarios"></a>
+    <a href="pagos.html">Pagos</a>
+    -->    
+   
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+   <script src="js/main.js"></script>
+</body>
+</html>

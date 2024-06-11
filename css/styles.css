@@ -1,0 +1,961 @@
+html
+    {
+        font-size: 62.5%;
+    }
+
+    body
+    {
+
+        font-size: 1.6rem;
+        
+    }
+
+    h2
+    {
+
+        font-size: 3rem;    
+        font-family: 'Kalam', cursive;
+        text-transform: uppercase;
+        /*font-family: fantasy;*/
+        color: whitesmoke;
+    }
+
+    .ss
+    {
+
+        color: #365b77;
+
+    }
+
+    h4
+    {
+
+        font-size: 2rem;
+        font-family: 'Kalam', cursive;
+        /*font-family: 'Roboto', sans-serif;*/
+        color: black;
+
+    }
+
+
+
+
+    p
+    {
+
+        font-size: 2rem;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: bold;   
+
+    }
+
+
+    .Barra
+    {
+        background-size: 120rem;
+        margin: 0;
+        position: fixed;
+        height: 5rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        padding-top: 0rem;
+        padding-bottom: 1rem;
+        background-color: rgba(0, 0, 0, 0.863);
+
+    }
+    
+    .Barra a
+    {
+
+        font-size: 8rem;
+
+    }
+
+    .Contenido-header
+    {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between
+
+    }
+
+    .Navegacion
+    {
+
+        margin-right: 5rem;
+        padding-top: 1rem;
+        
+    }
+
+    .Navegacion a
+    {
+        
+        
+        text-decoration: none;
+        font-size: 2rem;
+        font-family: 'Rubik', sans-serif;
+
+    }
+
+    .Navegacion a:hover
+    {
+
+        color: #ffff;
+
+    }
+
+    /*.Navegacion a:first-of-type:hover
+    {
+
+    }*/
+
+    .p1
+    {
+
+        color: #c9e9fc;
+        padding-right: 1rem;
+
+    }
+
+    .p2
+    {
+
+        color: #c9e9fc;
+        padding-right: 1rem;
+
+    }
+
+    .p4
+    {
+
+        color: #c9e9fc;
+
+
+    }
+
+    .Logotipo
+    {
+
+        height: 10rem;
+        width: 10rem;
+        padding-left: 1rem;
+        align-items: flex-end;
+
+
+    }
+
+
+    .Inicio
+    {
+
+        background-image: url("../img/principal.jpg");
+        background-size: cover;
+        height: 100vh;
+        min-height: 60rem;
+
+
+    }
+
+    .Eslogan
+    {
+
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        font-family: 'Fjalla One', sans-serif;
+        color: whitesmoke;
+        font-size: 3.5rem;
+
+    }
+
+    .Quienes_somos
+    {
+
+        width: 100%;
+        height: 100vh;
+        
+    }
+
+    .Quienes_somos p
+    {
+
+        margin-top: 2rem;
+        width: 45rem;
+        padding-left: 2rem;
+        
+
+    }
+
+    .Quienes_somos img
+    {
+
+        height: 35rem;
+
+        width: 45rem;
+        padding-left: 2rem;
+        padding-top: 2rem;
+
+    }
+
+    .esto_somos
+    {
+
+        margin-left: 35%;    
+        width: 50rem;
+        background-color: wheat;
+        border: .2rem solid blanchedalmond;
+        box-shadow: 1rem .2rem 2rem rgba(245, 222, 179, 0.61);
+    }
+
+    .caracteristicas
+    {
+
+        display: flex;
+        flex-basis: calc(43.3% - 1rem);
+        justify-content: space-evenly;
+        
+    }
+
+    .calidad
+    {
+
+        margin-top: 2%;
+        /*width: 50rem;*/
+        background-color: wheat;
+        border: 2rem .2rem 2rem rgba(245, 222, 179, 0.61);
+        box-shadow: 1rem .2rem 2rem rgba(245, 222, 179, 0.61);  
+
+    }
+
+    .calidad h2
+    {
+
+        text-align: center;
+
+    }
+
+    .calidad img
+    {
+
+        background-color: whitesmoke;
+        height: 28rem;
+        background-size: cover;
+        padding-left: 3rem;
+        padding-bottom: 4rem;
+
+    }
+
+    .seguridad
+    {
+
+       margin-top: 2%;
+       width: 50rem;
+       background-color: wheat;
+       border: 2rem .2rem 2rem rgba(245, 222, 179, 0.61);
+       box-shadow: 1rem .2rem 2rem rgba(245, 222, 179, 0.61); 
+
+    }
+
+    .seguridad h2
+    {
+
+        text-align: center;
+
+    }
+
+    .seguridad img
+    {
+        
+        background-color: whitesmoke;
+        height: 28rem;
+        width: 49rem;
+        background-size: cover;
+        padding-left: 1rem;
+        padding-bottom: 4rem;
+        
+    }
+
+    .confianza
+    {
+        /*margin-left: 1%;*/
+        margin-top: 2%;
+        width: 50rem;
+        background-color: wheat;
+        border: 2rem .2rem 2rem rgba(245, 222, 179, 0.61);
+        box-shadow: 1rem .2rem 2rem rgba(245, 222, 179, 0.61);
+    }
+
+    .confianza h2
+    {
+
+        text-align: center;
+
+    }
+    
+    .confianza img
+    {
+
+        height: 32rem;
+        background-color: whitesmoke;
+        background-size: cover;
+        padding-left: 5rem;
+        
+    }
+  
+
+    .cuerpo
+    {
+
+        background-image: url("../img/fondo2-gigapixel-height-960px.jpg");
+        background-position: center;
+        background-size: cover;
+        /*background-color: rgba(173, 216, 230, 0.514);*/
+        
+        /*background-color: #02253d;*/    
+
+    }
+
+    .servidores
+    {
+        
+        max-width: 100vw;
+        margin: 60rem auto;
+        /*margin-top: 2rem;
+        margin-bottom: 2rem;
+        */
+        background-image: url("../img/principal2-gigapixel-width-1250px.jpg");
+        background-position: center center;
+        background-size: cover;
+        height: 60rem;
+        
+        
+
+    }
+
+    .servidores h2
+    {
+
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+
+
+
+    .descripcion figure
+    {
+
+        position: relative;
+        bottom: 91%;
+        right: 2%;
+        background-color: rgba(12, 85, 85, 0.822);
+        background-size: cover;
+        height: 98%/*39.3rem*/;
+        width: 101%/*48.8rem*/;
+        opacity: 0;
+        transition: all 500ms ease-out;
+        text-align: center;
+        margin-bottom: 0rem;
+        cursor: pointer;
+
+    }
+    
+
+    .masInformacion h4
+    {
+
+        color: whitesmoke;
+        transition: all 500ms ease-out;
+        padding-top: 2rem;
+       
+    }
+    
+    .masInformacion p
+    {
+
+        color: whitesmoke;
+        transition: all 500ms ease-out;
+        margin-top: 25rem;
+
+    }
+
+    .servidores figure:hover 
+    {
+
+        opacity: 1;
+        visibility: visible;
+
+    }
+
+    .servidores figure:hover > .masInformacion h4
+    {
+
+        margin-top: 30%;        
+
+    }
+
+    .servidores figure:hover > .masInformacion p
+    {
+
+        margin-top: 2%;
+
+    }
+
+    .servidores figure:hover > .descripcion
+    {
+
+        scale: 1.5;
+
+    }
+    .descripcion
+    {
+    
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    
+
+    }
+
+    .descripcion div figure
+    {
+
+        margin-left: .8rem;
+        margin-right: .8rem;
+        display: inline-block;
+        padding-top: 1rem;
+
+    }
+
+
+    .servidor 
+    {
+
+        flex-basis: calc(33.3% - 1rem);
+        text-align: center;
+        margin: auto 1rem auto 1rem;
+        border: .1rem  solid cadetblue;
+        background-color: #c8eff1c2;
+        height: 40rem;
+        width: 40rem;
+        box-shadow: 1rem .6rem 2rem rgba(0, 0, 0, 0.904);
+        
+    }
+
+    .servidor h4
+    {
+
+        margin-top: 0;
+        
+
+    }
+
+    .servidor p
+    {
+
+        padding-bottom: 5%;
+
+
+    }
+
+    .servidor img
+    {
+
+        height: 40%;
+        width: 50%;
+        border-radius: 50%;
+        background-size: 100% auto;
+        border-color: 10rem solid black;
+                
+    }
+
+    .horarios
+    {
+
+        margin-top: -55rem;
+
+    }
+
+    .horarios h3
+    {
+
+        font-size: 3rem;
+        font-family: 'Hind Siliguri', sans-serif;
+        color:blanchedalmond;
+
+    }
+
+    .dias
+    {
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-basis: calc(33.3% - 1rem);
+        text-align: center;
+    }
+
+    .lunes_a_viernes
+    {
+
+        margin-right: 2rem;
+        width: 80rem;
+
+    }
+
+    .sabados
+    {
+
+        width: 80rem;
+
+
+    }
+
+    #map
+    {
+
+        height: 30rem;
+        width: 99vw;
+    }
+
+
+    /*  PÁGINA DE PLANES    */
+.planes
+{
+
+    background-image: url(../img/planes3-gigapixel-width-1249px.jpg); 
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.descubre_planes
+{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-basis: calc(50% - 1rem);
+}
+
+.planes img
+{
+
+    margin: 2rem 2rem 2rem 2rem;
+
+
+}
+.planes h1
+{
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3rem;
+    color: whitesmoke;
+    margin-left: -9rem;
+}
+
+.planes h3
+{
+
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    color: whitesmoke;
+    font-size: 2rem;
+
+}
+
+
+.volver
+{
+
+    text-decoration: none;
+    width: 8rem;
+    height: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color: whitesmoke;
+    border: .1rem solid #20e2d7;
+    transition: all 750ms ease;
+    margin-left: -5rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.planes a
+{
+
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color: whitesmoke;
+    border: .1rem solid #20e2d7;
+    transition: all 750ms ease;
+    display: flex;
+    justify-content: center;
+}
+
+
+.planes a:hover
+{
+
+    
+    box-shadow: 0 0 1rem #20e2d7, 0 0 2rem #20e2d7, 0 0 2rem #20e2d7;
+    background-color: #20e2d7;
+    cursor: pointer;
+
+
+}
+
+
+.plan1
+{
+
+    background-color: #153f59;
+    max-width: 60rem;
+    max-height: 70rem;
+    text-align: center;
+    margin: 15rem auto auto 52rem;
+    border: .3rem solid whitesmoke;
+    box-shadow: 1rem .6rem .4rem #343a3d;
+    
+}
+
+.plan2
+{
+
+    background-color: #153f59;
+    max-width: 60rem;
+    max-height: 70rem;
+    text-align: center;
+    margin: 15rem auto auto 52rem;
+    border: .3rem solid whitesmoke;
+    box-shadow: 1rem .6rem .4rem #343a3d;
+}
+
+.plan2 img
+{
+
+    height: 20rem;
+
+}
+
+.plan3
+{
+
+    background-color: #153f59;
+    max-width: 60rem;
+    max-height: 70rem;
+    text-align: center;
+    margin: 15rem auto auto 52rem;
+    border: .3rem solid whitesmoke;
+    box-shadow: 1rem .6rem .4rem #343a3d;
+    
+}
+
+.plan3 img
+{
+
+    width: 40rem;
+    height: 30rem;
+
+}
+
+.plan4
+{
+
+    background-color: #153f59;
+    max-width: 60rem;
+    max-height: 70rem;
+    text-align: center;
+    margin: 15rem auto auto 52rem;
+    border: .3rem solid whitesmoke;
+    box-shadow: 1rem .6rem .4rem #343a3d;
+
+}
+
+.plan4 img
+{
+
+    width: 40rem;
+    height: 30rem;
+
+}
+
+.plan5
+{
+
+    background-color: #153f59;
+    max-width: 60rem;
+    max-height: 70rem;
+    text-align: center;
+    margin: 15rem auto 2rem 52rem;
+    border: .3rem solid whitesmoke;
+    box-shadow: 1rem .6rem .4rem #343a3d;
+
+}
+
+.plan5 img
+{
+
+    width: 40rem;
+    height: 30rem;
+
+}
+
+.formulario
+{
+
+    background: url(../img/planes2-gigapixel-scale-4_00x.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.formulario *
+{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.campos_registro
+{
+
+    width: 40rem;
+    background: #24303cea;
+    padding: 3rem;
+    margin: auto;
+    margin-top: 10rem;
+    border-radius: .4rem;
+    box-shadow: .7rem 1.3rem 3.7rem #000;
+    
+}
+
+.campos_registro h2
+{
+
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.controls
+{
+
+    width: 100%;
+    background: #24303c;
+    padding: 1rem;
+    border-radius: .4rem;
+    margin-bottom: 1.6rem;
+    border: .1rem solid #1f53c5;
+    font-size: 1.8rem;
+    color: whitesmoke;
+    
+
+}
+
+.campos_registro .botons
+{
+
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 1.2rem;
+    color: whitesmoke;
+    margin: 1.6rem 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.6rem;
+
+}
+
+.campos_registro .botons:hover
+{
+
+    color: black;
+    cursor: pointer;
+
+}
+
+
+.regresar_a_planes 
+{
+
+    text-decoration: none;
+    width: 4rem;
+    height: 4rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.9rem;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.568);
+    border: .1rem solid gray;
+    transition: all 750ms ease;
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+    
+
+}
+
+.regresar_a_planes:hover
+{
+
+    box-shadow: 0 0 1rem rgba(128, 128, 128, 0.733), 0 0 2rem rgba(128, 128, 128, 0.733), 0 0 2rem rgba(128, 128, 128, 0.733);   
+    color: wheat;
+    cursor: pointer;
+
+}
+
+
+/*REPORTES*/
+/*
+.citas_totalesLine
+{
+
+    border-radius: 5rem;
+    font-size: 3rem;
+    color: black;
+
+}
+*/
+/*
+.reportes
+{
+    
+}
+*/
+/*
+.grafica_para_citasTotales
+{
+
+
+    background-color: whitesmoke;
+    border: .5rem solid gray;
+
+}
+*/
+
+.reportes h1
+{
+
+    font-family: 'Bebas Neue', cursive;
+    color: rgba(0, 0, 0, 0.623);
+
+
+}
+
+.citas_totales_seleccion
+{
+
+    max-width: 80rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    /*background-color: #515172;*/
+
+}
+
+
+.citas_totales_seleccion button
+{
+
+
+    border: none;
+    border-radius: 1rem;
+    background-color: #2898;
+    color: whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+/*    margin-top: .2rem;
+    margin-left: .2rem;*/
+
+}
+
+.citas_totales_seleccion button:hover
+{
+
+    cursor: pointer;
+    border: .3rem solid darkblue;
+    
+}
+
+
+.citas_pendientes_seleccion
+{
+
+    max-width: 80rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    /*background-color: #515172;*/
+
+}
+
+.citas_pendientes_seleccion button
+{
+
+
+    border: none;
+    border-radius: 1rem;
+    background-color: #2898;
+    color: whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+/*    margin-top: .2rem;
+    margin-left: .2rem;*/
+
+}
+
+
+.citas_pendientes_seleccion button:hover
+{
+
+    cursor: pointer;
+    border: .3rem solid darkblue;
+    
+}
+
+/*CITAS TOTALES*/
+
+.division_citasTotales
+{
+
+
+    position: relative;
+    top: 15rem;
+    left: 15rem;
+
+
+}
+
+.grafica1
+{
+
+    width: 80rem;
+    height: 40rem;
+    
+}
+
+.grafica2
+{
+
+    width: 80rem;
+    height: 40rem;
+    
+}
+
+.division_citasPendientes
+{
+
+
+    position: relative;
+    top: 15rem;
+    left: 15rem;
+
+
+}
